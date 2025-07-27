@@ -1,1 +1,1 @@
-
+Download the pretrained Stable Diffusion (SD) model. For the model path, you can either place the file in the current directory or **configure the root path in 'units/model_utils.py'/**. We strongly recommend the second option.
