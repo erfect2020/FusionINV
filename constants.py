@@ -1,0 +1,3 @@
+OUT_INDEX = 0
+IR_INDEX = 2
+VIS_INDEX = 1

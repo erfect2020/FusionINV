@@ -1,0 +1,21 @@
+# Main Frameworks and Libraries
+torch==2.3.1
+pytorch-lightning==2.3.0
+transformers==4.41.2
+diffusers==0.15.0
+opencv-python==4.10.0.84
+numpy==1.24.4
+
+# Configuration and Utilities
+omegaconf==2.3.0
+einops==0.8.0
+safetensors==0.4.3
+tqdm==4.66.4
+Pillow==10.3.0
+
+# Web and API requests
+aiohttp==3.9.5
+requests==2.32.3
+
+# Optional for notebooks/interactive use
+ipython==8.12.2
