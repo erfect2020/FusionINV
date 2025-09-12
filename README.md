@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## 🧪 Testing
 
-1. Download the pretrained [Stable Diffusion (v1.5)](https://huggingface.co/runwayml/stable-diffusion-v1-5) weights.
+1. Download the pretrained [Stable Diffusion (v1.5)]([https://huggingface.co/runwayml/stable-diffusion-v1-5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5)) weights.
 2. Config the file `units/model_units.py` or place them in `./pretrained/` folder.
 3. Run the following script for IVF testing:
 
