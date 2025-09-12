@@ -5,7 +5,7 @@ import torch.nn.functional as F
 
 from config import RunConfig
 from constants import OUT_INDEX, IR_INDEX, VIS_INDEX
-from models.stable_diffusion_baseline import CrossImageAttentionStableDiffusionPipeline
+from models.stable_diffusion_baseline import FusionINVStableDiffusionPipeline
 from utils import attention_utils
 from utils.fusion_utils import maskedfusionin, fusion_in, adain, fusiondetails_in, maskedadain
 from utils.model_utils import get_stable_diffusion_model
