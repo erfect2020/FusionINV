@@ -49,7 +49,7 @@ from utils.segmentation import Segmentor
 
 class AllinVISModel:
 
-    def __init__(self, config: RunConfig, pipe: Optional[CrossImageAttentionStableDiffusionPipeline] = None):
+    def __init__(self, config: RunConfig, pipe: Optional[FusionINVAttentionStableDiffusionPipeline] = None):
         self.config = config
         self.pipe = get_stable_diffusion_model() if pipe is None else pipe
         self.register_attention_control()
