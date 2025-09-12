@@ -30,7 +30,7 @@ pip install -r requirements.txt
 3. Run the following script for IVF testing:
 
 ```bash
-python fusioninv.py --opt option/test/FusionINV_IVF.yaml
+python fusioninv.py --vis_image_path ./data/in_vis.png --ir_image_path ./data/in_ir.png --output_path ./output --domain_name sky --use_masked_adain False --contrast_strength 1.1 --swap_guidance_scale 1.5 --skip_steps 10 --direction_step_size -0.12 --seed 1 
 ```
 
 4. Modify the input path in the `fusioninv.py` file to adapt to your test data.
